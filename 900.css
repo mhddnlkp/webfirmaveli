@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Phudu:wght@400;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+
+}
+
+body{
+    width: 768px;
+    background: rgb(248,111,3);
+    background: linear-gradient(0deg, rgba(248,111,3,1) 0%, rgba(248,222,34,1) 100%, rgba(255,164,27,1) 100%);
+}
+
+.main__heading{
+    font-size: 44px;
+    color: #F94C10;
+    text-align: center;
+    font-family: 'phudu' ,cursive;
+    padding: 30px 10px;
+}
+
+.image{
+    width: 768px;
+    padding-top: 10px;
+}
+
+.para{
+    font-weight: 400;
+    color: #962803;
+    font-size: 24px;
+    text-align: center;
+}
+
+.smalll {
+    width: auto;
+    height: 150px;
+    background-image: url(./simpleb.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.ahead {
+    color: #F94C10;
+    font-family: 'Phudu', cursive;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.ah2{
+    font-size: 64px;
+    color: #F94C10;
+    font-family: 'phudu',cursive;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.ap{
+    font-family: 'phudu',cursive;
+    text-align: center;
+    font-size: 24px;
+    color: #962803;
+    padding: 5px;
+}
+
+.aimage {
+    padding-top: 10px;
+    width: 768px;
+}
+
+.bh2{
+    font-size: 64px;
+    color: #F94C10;
+    font-family: 'phudu',cursive;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.bp{
+    font-family: 'phudu',cursive;
+    text-align: center;
+    font-size: 24px;
+    color: #962803;
+    padding: 5px;
+}
+
+.bimage {
+    padding-top: 10px;
+    width: 768px;
+}
+
+.ch2{
+    font-size: 64px;
+    color: #F94C10;
+    font-family: 'phudu',cursive;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.cp{
+    font-family: 'phudu',cursive;
+    text-align: center;
+    font-size: 24px;
+    color: #962803;
+    padding: 5px;
+}
+
+.cimage {
+    padding-top: 10;
+    width: 768px;
+    padding-bottom: 25px;
+}
+
+.small{
+    width: auto;
+    height: 150px;
+    background-image: url(./simpleb.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    
+}
+
+.chead{
+    color: #F94C10;
+    font-family: 'Phudu', cursive;
+    align-items: center;
+    justify-content: center;
+    font-size: 80px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.cardcard{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.card {
+    
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: #fff;
+    width: 768px;
+    height: 550px;
+    gap: 25px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 20px 16px;
+    font-size: 18px;
+
+}
+
+.card1{
+    padding-bottom: 20px;
+}
+
+.smallll{
+    width: auto;
+    height: 150px;
+    background-image: url(./simpleb.jpg);
+    background-position: center;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    
+}
+
+.bhead{
+    color: #F94C10;
+    font-family: 'Phudu', cursive;
+    align-items: center;
+    justify-content: center;
+    font-size: 70px;
+    border: 1px solid #fff;
+    background-color: #fff;
+    padding: 15px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 5vw);
+    grid-gap: 25px; 
+    padding-top: 30px;
+    width:768px;
+    padding: 10px;
+}
+  
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block; 
+}
+  
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+  
+  .gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 3;
+  
+
+  }
+  
+  .gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 6;
+  
+
+  }
+  
+  .gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    grid-row-end: 6;
+  
+ 
+  }
+
+  .gallery__item--5 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 6;
+    grid-row-end: 9;
+  
+
+  }
+  
+  .gallery__item--6 {
+    grid-column-start: 5;
+    grid-column-end: 9;
+    grid-row-start: 6;
+    grid-row-end: 9;
+  
+
+  }
